@@ -18,12 +18,6 @@ Requirements: **Apple Silicon** (arm64), **macOS 26.0 or later**.
 
 ## Verifying a download
 
-Each release ships `checksums-<version>-arm64.txt`. Check a download against it:
-
-```sh
-shasum -a 256 -c checksums-0.1.0-arm64.txt
-```
-
 Every build is Developer ID signed, notarized by Apple and stapled, so
 Gatekeeper accepts it without any prompt:
 
